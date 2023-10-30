@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale:1.0">
+    <title>Les 18: huiswerk</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <style type="text/css">
+     
+     #content{
+        margin: 5px;
+      }
+      
+      [class*="col-"]{
+        width:100%;
+      }
+      @media only screen and (min-width: 768px){
+        [class*="col-"]{
+          float:left;
+          padding:5px;
+        }
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}     
+      }
+      
+      header{
+        width:100%;
+        height: 100px;
+      }
+
+      footer{
+        width: 100%;
+        height:100px;
+        background-color: lavender;
+        clear:left;
+      }
+      h1{
+        font-family:'Monoton', sans-serif;
+        background-image: url(curacao.jpg);
+        background-size: 100% 100%;
+        background-repeat:no-repeat;
+        min-height: 100px;
+      }
+
+      .col-9{
+        background-color: plum;
+        height: auto;
+      }
+
+      @media only screen and (min-width:1200px){
+        .col-9{
+          background-color: mediumorchid;
+        }
+      }
+
+      img{
+        float:right;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="content">
+      <header><h1>Willemstad, Curacao</h1></header>
+      <div class="row">
+        <div class="col-2">
+            <p>5 feiten over Curacao</p>
+            <ul>
+              <li>feit 1</li>
+              <li>feit 2</li>
+              <li>feit 3</li>
+              <li>feit 4</li>
+              <li>feit 5</li>
+            </ul>
+        </div>
+        <div class="col-9">
+          <section id="one">
+            <p><img src="park2.jpeg" alt="Christoffelberg" width="300px"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis magna eget nibh feugiat vestibulum vitae non purus. Duis sagittis scelerisque nulla non volutpat. Suspendisse mollis, enim vitae tempor vulputate, orci mi rutrum ipsum, in hendrerit nibh magna et quam. Sed ornare efficitur augue, ut pharetra ex. Nullam fringilla risus vitae diam malesuada auctor. Pellentesque aliquam velit sed metus fermentum ornare. Integer consequat libero felis, nec mattis metus dapibus consectetur. Nullam suscipit id eros at rhoncus. Donec eleifend feugiat pretium. Integer fermentum lacinia dui, mollis maximus turpis ullamcorper ut. Quisque non congue ipsum. Quisque vitae porttitor orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris consequat justo at ligula scelerisque interdum. Nunc pretium lacinia ipsum, a vulputate arcu fermentum eu.
+            </p>
+          </section>
+          <section id="two">
+            <p><img src="park1.jpeg" alt="Christoffelpark" width="300px"> Etiam tempus tristique nibh, id faucibus massa fermentum ut. Duis molestie tempus egestas. Nam vel consequat odio. Vivamus neque ligula, mollis vitae nunc at, elementum efficitur quam. Maecenas quis ex id ante porttitor laoreet a ut sapien. Morbi ante felis, viverra non feugiat sit amet, imperdiet sed massa. Curabitur et turpis sit amet ipsum ornare sodales. Aliquam non libero at eros tristique bibendum ut non urna. Praesent non consequat ex. Ut arcu ex, faucibus euismod velit at, suscipit ultricies libero. Nunc pharetra sapien purus, sit amet dignissim tortor semper in. Suspendisse semper diam et lorem luctus tincidunt.
+            </p>
+          </section>
+        </div>
+      </div>
+      <footer></footer>
+    </div>
+  </body>
+</html>
